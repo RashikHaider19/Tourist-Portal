@@ -1,0 +1,34 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: #45a049;
+    padding: 10px;
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%; /* Make it full-width */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align to the left */
+    text-align: center; /* Center text inside the navbar */
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .navbar li {
+    margin: 0 15px; /* Space out the items */
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgba(250, 235, 215, 0.538);
+    padding: 5px; /* Add some padding on hover */
+  }
+  

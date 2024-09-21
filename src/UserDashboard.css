@@ -1,0 +1,92 @@
+.user-dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid rgb(5, 101, 3);
+  box-shadow: 3px 3px 8px rgba(127, 14, 14, 0.3);
+  position: absolute;
+  background-color: #0ee423;
+  top: 80px;
+  left: 20px;
+}
+
+.logout-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+.packages-title {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  background-color: #0ee423;
+}
+
+.package-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.package-item {
+  width: 20%;
+  margin: 10px;
+  padding: 2%;
+  border: 10px solid #b2fa7f;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.package-image {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.package-info {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.package-item img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}

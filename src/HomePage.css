@@ -1,0 +1,35 @@
+/* src/HomePage.css */
+.home-page {
+  background-color: rgba(250, 235, 215, 0.8);
+  display: flex; /* Use flexbox to center content */
+  flex-direction: column; /* Align content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 40vh; /* Full viewport height */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-page h1 {
+  margin-bottom: 20px;
+  color: #45a049;
+  font-size: 2.5rem; /* Larger font size for better visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for better text visibility */
+}
+
+.home-page .btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem; /* Slightly larger font size for buttons */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.home-page .btn:hover {
+  background-color: #45a049;
+}

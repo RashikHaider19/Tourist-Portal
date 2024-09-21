@@ -1,0 +1,12 @@
+/* src/App.css */
+.App {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue; /* Change the background color of blank spaces */
+  background-image: url('E:\Visuals for Project471\new\ReactNew\ReactNew\tourist\public\tourism.jpg'); /* Path to your background image */
+  background-size: cover; /* Use cover to make sure the image covers the entire background */
+  background-position: center;
+  background-repeat: no-repeat;
+}

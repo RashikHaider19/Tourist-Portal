@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f329b453.css",
+    "main.js": "/static/js/main.a15b992d.js",
+    "static/media/tourism.jpg": "/static/media/tourism.967d8c72e2ddb057a87e.jpg",
+    "index.html": "/index.html",
+    "main.f329b453.css.map": "/static/css/main.f329b453.css.map",
+    "main.a15b992d.js.map": "/static/js/main.a15b992d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f329b453.css",
+    "static/js/main.a15b992d.js"
+  ]
+}
